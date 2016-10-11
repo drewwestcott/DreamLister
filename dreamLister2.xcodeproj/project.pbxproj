@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A6FA1A31DAD9EC500913B66 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FA1A21DAD9EC500913B66 /* MaterialView.swift */; };
 		3A7C0BD51DAAEF590066E277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BD41DAAEF590066E277 /* AppDelegate.swift */; };
-		3A7C0BD71DAAEF590066E277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BD61DAAEF590066E277 /* ViewController.swift */; };
+		3A7C0BD71DAAEF590066E277 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BD61DAAEF590066E277 /* MainVC.swift */; };
 		3A7C0BDA1DAAEF590066E277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C0BD81DAAEF590066E277 /* Main.storyboard */; };
 		3A7C0BDD1DAAEF590066E277 /* dreamLister2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BDB1DAAEF590066E277 /* dreamLister2.xcdatamodeld */; };
 		3A7C0BDF1DAAEF590066E277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C0BDE1DAAEF590066E277 /* Assets.xcassets */; };
@@ -17,9 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A6FA1A21DAD9EC500913B66 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		3A7C0BD11DAAEF590066E277 /* dreamLister2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamLister2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7C0BD41DAAEF590066E277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A7C0BD61DAAEF590066E277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A7C0BD61DAAEF590066E277 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3A7C0BD91DAAEF590066E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7C0BDC1DAAEF590066E277 /* dreamLister2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dreamLister2.xcdatamodel; sourceTree = "<group>"; };
 		3A7C0BDE1DAAEF590066E277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		3A7C0BEA1DAAEFD00066E277 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3A6FA1A21DAD9EC500913B66 /* MaterialView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -89,7 +92,7 @@
 		3A7C0BEB1DAAEFD60066E277 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3A7C0BD61DAAEF590066E277 /* ViewController.swift */,
+				3A7C0BD61DAAEF590066E277 /* MainVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -168,7 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7C0BDD1DAAEF590066E277 /* dreamLister2.xcdatamodeld in Sources */,
-				3A7C0BD71DAAEF590066E277 /* ViewController.swift in Sources */,
+				3A7C0BD71DAAEF590066E277 /* MainVC.swift in Sources */,
+				3A6FA1A31DAD9EC500913B66 /* MaterialView.swift in Sources */,
 				3A7C0BED1DAAF3740066E277 /* extendItem.swift in Sources */,
 				3A7C0BD51DAAEF590066E277 /* AppDelegate.swift in Sources */,
 			);
@@ -332,6 +336,7 @@
 				3A7C0BE81DAAEF590066E277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -11,4 +11,10 @@ import Foundation
 extension Item {
     
     // extra details here.
+    public override func awakeFromInsert() {
+        
+        super.awakeFromInsert()
+        self.created = NSDate()
+        
+    }
 }
