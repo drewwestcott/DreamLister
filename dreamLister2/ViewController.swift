@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var dreamItem = Item()
 
     override func viewDidLoad() {
         super.viewDidLoad()
