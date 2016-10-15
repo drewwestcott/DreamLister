@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A11246D1DB212D700B859F9 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11246C1DB212D700B859F9 /* ItemDetailsVC.swift */; };
+		3A11246F1DB2156400B859F9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11246E1DB2156400B859F9 /* CustomTextField.swift */; };
 		3A6FA1A31DAD9EC500913B66 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FA1A21DAD9EC500913B66 /* MaterialView.swift */; };
 		3A7C0BD51DAAEF590066E277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BD41DAAEF590066E277 /* AppDelegate.swift */; };
 		3A7C0BD71DAAEF590066E277 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BD61DAAEF590066E277 /* MainVC.swift */; };
@@ -15,9 +17,12 @@
 		3A7C0BDF1DAAEF590066E277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C0BDE1DAAEF590066E277 /* Assets.xcassets */; };
 		3A7C0BE21DAAEF590066E277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C0BE01DAAEF590066E277 /* LaunchScreen.storyboard */; };
 		3A7C0BED1DAAF3740066E277 /* extendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C0BEC1DAAF3740066E277 /* extendItem.swift */; };
+		3ACA4F831DB1978300F3FCDD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA4F821DB1978300F3FCDD /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A11246C1DB212D700B859F9 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		3A11246E1DB2156400B859F9 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		3A6FA1A21DAD9EC500913B66 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		3A7C0BD11DAAEF590066E277 /* dreamLister2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamLister2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7C0BD41DAAEF590066E277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		3A7C0BE11DAAEF590066E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A7C0BE31DAAEF590066E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A7C0BEC1DAAF3740066E277 /* extendItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extendItem.swift; sourceTree = "<group>"; };
+		3ACA4F821DB1978300F3FCDD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,9 @@
 		3A7C0BEA1DAAEFD00066E277 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3A11246E1DB2156400B859F9 /* CustomTextField.swift */,
 				3A6FA1A21DAD9EC500913B66 /* MaterialView.swift */,
+				3ACA4F821DB1978300F3FCDD /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				3A7C0BD61DAAEF590066E277 /* MainVC.swift */,
+				3A11246C1DB212D700B859F9 /* ItemDetailsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -171,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7C0BDD1DAAEF590066E277 /* dreamLister2.xcdatamodeld in Sources */,
+				3A11246D1DB212D700B859F9 /* ItemDetailsVC.swift in Sources */,
 				3A7C0BD71DAAEF590066E277 /* MainVC.swift in Sources */,
+				3ACA4F831DB1978300F3FCDD /* ItemCell.swift in Sources */,
+				3A11246F1DB2156400B859F9 /* CustomTextField.swift in Sources */,
 				3A6FA1A31DAD9EC500913B66 /* MaterialView.swift in Sources */,
 				3A7C0BED1DAAF3740066E277 /* extendItem.swift in Sources */,
 				3A7C0BD51DAAEF590066E277 /* AppDelegate.swift in Sources */,
